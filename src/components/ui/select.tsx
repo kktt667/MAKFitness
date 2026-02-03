@@ -29,6 +29,7 @@ export function Select({
         disabled={disabled}
         className={cn(
           'flex h-12 w-full appearance-none rounded-3xl border-2 border-neutral-200 bg-white px-4 py-2 pr-10 text-base',
+          'text-neutral-900',
           'focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent',
           'disabled:cursor-not-allowed disabled:opacity-50',
           'transition-colors cursor-pointer',
