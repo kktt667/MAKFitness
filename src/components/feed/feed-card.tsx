@@ -88,12 +88,12 @@ export function FeedCard({ checkIn, currentUserId, initialReactions }: FeedCardP
     }
   }
 
-  const timeOfDayEmoji = {
+  const timeOfDayEmoji = (checkIn.time_of_day && {
     morning: '🌅',
     afternoon: '☀️',
     evening: '🌆',
     night: '🌙',
-  }[checkIn.time_of_day || ''] || '⏰'
+  }[checkIn.time_of_day]) || '⏰'
 
   // Count completed metrics
   const completedMetrics = Object.keys(checkIn.metrics).length
