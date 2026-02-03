@@ -5,9 +5,9 @@ SET
   config = '{"placeholder": "e.g., Cardio, Yoga, Strength"}'
 WHERE key = 'workout_type';
 
--- Update steps to have max of 1000
+-- Update steps to have max of 60000
 UPDATE public.metric_definitions
-SET config = '{"unit": "steps", "placeholder": "e.g., 8000", "max": 1000}'
+SET config = '{"unit": "steps", "placeholder": "e.g., 8000", "max": 60000}'
 WHERE key = 'steps';
 
 -- Update active_minutes to have max of 1000
