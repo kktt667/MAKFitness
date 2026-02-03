@@ -1,0 +1,75 @@
+{
+  "name": "MAKFitness - Your Cozy Fitness Journey",
+  "short_name": "MAKFitness",
+  "description": "Track your fitness journey with friends in a supportive, non-toxic community",
+  "start_url": "/feed",
+  "display": "standalone",
+  "background_color": "#FFD6E8",
+  "theme_color": "#FF5C9A",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-feed.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "label": "Feed"
+    },
+    {
+      "src": "/screenshot-checkin.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "label": "Daily Check-in"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Daily Check-in",
+      "short_name": "Check-in",
+      "url": "/check-in",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "View Feed",
+      "short_name": "Feed",
+      "url": "/feed",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Progress",
+      "short_name": "Progress",
+      "url": "/progress",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "categories": ["health", "lifestyle", "social"],
+  "prefer_related_applications": false
+}
